@@ -1,0 +1,5 @@
+# Explicação das cores dos bairros
+
+A forma 'default' de gerar o mapa, o gera com uma legenda com uma cor diferente para cada valor distindo de algum atributo dos dados que eu defina, neste caso o bairro. Eu gostaria de ser capaz de filtrar os dados baseado em quais bairros foram selecionados. A dificuldade envolvida se encontrava em o componente 'Dropdown' do Dash não estar internamente integrado com a criação do mapa, então mesmo desenvolvendo a lógica para filtrar os dados, o dropdown funcionava mas as cores exibidas no dropdown não condiziam com as cores exibidas no mapa.
+
+Para solucionar este problema gerei uma paleta de cores com 

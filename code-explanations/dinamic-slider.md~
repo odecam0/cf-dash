@@ -1,0 +1,9 @@
+# Explicação da barra com valores dinâmicos
+
+Uma aplicação desenvolvida com Dash consistem em uma sequência de componentes com propriedades,
+dentre elas obrigatóriamente um ID. Em seguida uma sequência de definições de funções, chamadas
+de ~callbacks~ que são executadas quando algumas propriedades de determinados componentes são
+modificadas, e seus valores retornados definem propriedades de outros componentes.
+
+Neste caso existem alguns~callbacks~relevantes. Um que gera o gráfico exibido, e outro que 
+atualiza os valores máximo e mínimo da barra.

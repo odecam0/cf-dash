@@ -1,0 +1,17 @@
+.form-control {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: .3rem;
+  color: #eaeaea !important;
+  /* border: #90909044; */
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #1E1E1E;
+  color: white;
+}
+
+.Select-control{
+  border: 0.5px solid #dbdbdb44;
+}
